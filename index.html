@@ -1,0 +1,6 @@
+<html>
+	<script>
+		var  cb = (new URLSearchParams(window.location.search)).get('cb')
+		document.body.innerHTML = decodeURIComponent(cb);
+	</script>
+</html>
